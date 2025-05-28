@@ -1,0 +1,231 @@
+/* Style Umum */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    background-color: #03725E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Konten */
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Kotak Login */
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn-green {
+    background-color: #03725E;
+    color: white;
+    border: 2px solid #03725E;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-green:hover {
+    background-color: #025B4B;
+    color: white;
+}
+
+/* Tombol Tambah dan Upload */
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.btn-tambah {
+    background-color: #28a745; /* Green */
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-tambah:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.btn-upload {
+    background-color: #007bff; /* Blue */
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-upload:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Form */
+.form-container {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #444;
+}
+
+.form-control {
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Input Password dengan Toggle */
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+}
+
+.text-green {
+    color: #03725E !important;
+    font-weight: 600;
+}
+
+/* Modal Profil Khusus */
+#profileModal .modal-header {
+    background-color: #003366;
+    color: white;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+#profileModal .modal-body,
+#profileModal .modal-footer {
+    background-color: #ffffff;
+    color: #333;
+}
+
+#profileModal .modal-footer {
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+#profileModal .btn-close {
+    filter: invert(1);
+}
+
+#profileModal .btn.btn-secondary {
+    background-color: #003366;
+    border-color: #003366;
+    color: white;
+    font-weight: 500;
+}
+
+#profileModal .btn.btn-secondary:hover {
+    background-color: #002244;
+    border-color: #002244;
+}
+
+/* Footer */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Layout Dashboard */
+.container-dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background: #f0f0f0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Utilitas */
+.hidden {
+    display: none;
+}

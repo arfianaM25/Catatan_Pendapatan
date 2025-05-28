@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    height: 60px;
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header h5 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 50px 60px; /* lebih besar */
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px; /* diperbesar dari 400 ke 480 */
+    text-align: left;
+}
+
+.btn-green {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+    background-color: #003366;
+}
+
+.text-green {
+    color: #003366 !important;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
